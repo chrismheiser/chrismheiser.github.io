@@ -175,10 +175,11 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
+/* Intro Wrap */
 
+/* IF YOU NEED TO CHANGE COLOR BACKGROUNDS, THEY ARE HERE!!! */
 #intro {
-    background: #4A92D9;
+    background: #aecfae;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -196,8 +197,9 @@ a:after {
 }
 
 
+/* IF YOU NEED TO CHANGE COLOR BACKGROUNDS, THEY ARE HERE!!! */
 #skillswrap {
-	background: #4A92D9;
+	background: #aecfae;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
