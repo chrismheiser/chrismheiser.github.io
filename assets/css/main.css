@@ -153,7 +153,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -179,11 +179,11 @@ a:after {
 
 /* IF YOU NEED TO CHANGE COLOR BACKGROUNDS, THEY ARE HERE!!! */
 #intro {
-    background: #aecfae;
+    background: #799079;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
-} 
+}
 
 #intro h5, p {
 	color: white;
@@ -199,7 +199,7 @@ a:after {
 
 /* IF YOU NEED TO CHANGE COLOR BACKGROUNDS, THEY ARE HERE!!! */
 #skillswrap {
-	background: #aecfae;
+	background: #799079;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
