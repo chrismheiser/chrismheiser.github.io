@@ -5,30 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 
     <title>Chris Heiser</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-    <script src="assets/js/Chart.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway:400,300,700'>
+    <link rel="stylesheet" href="assets/css/skillsreset.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
@@ -65,11 +53,9 @@
 		</div><!--/.container -->
 	</div><!--/.#headerwrap -->
 
-
-  <section id="about" name="about"></section>
-
-      <div id="intro">
-		<div class="container">
+   <!--ABOUT DESCRIPTION -->
+      <section id="about" name="about"></section>
+      <div class="container desc">
 			<div class="row">
 
 				<div class="col-lg-2 col-lg-offset-1">
@@ -85,8 +71,8 @@
 				</div> 
 
 			</div><!--/.row -->
+          <hr>
 		</div><!--/.container -->
-	</div><!--/ #intro -->
 
 	<section id="resume" name="resume"></section>
 	<!--EDUCATION DESCRIPTION -->
@@ -125,6 +111,7 @@
 
 
 	<!--WORK DESCRIPTION -->
+      <section id="work" name="work"></section>
 	<div class="container desc">
 		<div class="row">
 
@@ -194,130 +181,70 @@
 
 		</div><!--/.row -->
 		<br>
+        <hr>
 	</div><!--/.container -->
 
 
 	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>SKILLS</h5>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Javascript</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#FDD159"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Django</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#FDD159"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Java</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 60,
-										color:"#FDD159"
-									},
-									{
-										value : 40,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+    <div class="container desc">  
+        <div class='row'>
+        <div class='col-lg-2 col-lg-offset-1'>
+            <h5>SKILLS</h5>  
+        </div>
+        </div>
+        <div id='skill_contain' class='row'>                
+                <div class="legend">
+                    <div class="skills">
+                        <ul>
+                            <li class="js">JavaScript</li>
+                            <li class="python">Python</li>
+                            <li class="angular">Angular</li>
+                            <li class="django">Django</li>
+                            <li class="c">C</li>
+                            <li class="java">Java</li>
 
-					<div class="col-lg-3 col-lg-offset-3 centered">
-						<canvas id="html" height="130" width="130"></canvas>
-						<p>HTML/CSS</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 85,
-										color:"#FDD159"
-									},
-									{
-										value : 15,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="photoshop" height="130" width="130"></canvas>
-						<p>C / C++</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#FDD159"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="illustrator" height="130" width="130"></canvas>
-						<p>Python</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 85,
-										color:"#FDD159"
-									},
-									{
-										value : 15,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-
-			</div><!--/.row -->
-			<br>
-		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
+                        </ul>
+                    </div>	
+                </div>
+                
+                <div id="diagram">
+                    <div class="get">
+                        <div class="arc">
+                            <span class="text">JavaScript</span>
+                            <input type="hidden" class="percent" value="85" />
+                            <input type="hidden" class="color" value="#97BE0D" />
+                        </div>
+                        <div class="arc">
+                            <span class="text">Python</span>
+                            <input type="hidden" class="percent" value="90" />
+                            <input type="hidden" class="color" value="#D84F5F" />
+                        </div>
+                        <div class="arc">
+                            <span class="text">Angular</span>
+                            <input type="hidden" class="percent" value="85" />
+                            <input type="hidden" class="color" value="#88B8E6" />
+                        </div>
+                        <div class="arc">
+                            <span class="text">Django</span>
+                            <input type="hidden" class="percent" value="60" />
+                            <input type="hidden" class="color" value="#BEDBE9" />
+                        </div>
+                        <div class="arc">
+                            <span class="text">C</span>
+                            <input type="hidden" class="percent" value="25" />
+                            <input type="hidden" class="color" value="#FFBF00" />
+                        </div>
+                        <div class="arc">
+                            <span class="text">Java</span>
+                            <input type="hidden" class="percent" value="40" />
+                            <input type="hidden" class="color" value="#6A66A3" />
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div><!--/.container -->
 
 
 	<section id="contact" name="contact"></section>
@@ -337,12 +264,9 @@
 				<div class="col-lg-3">
 					<p><sm>SOCIAL LINKS</sm></p>
 					<p>
-						<!-- <a href="#"><i class="icon-dribbble"></i></a> -->
-						<!-- <a href="#"><i class="icon-twitter"></i></a> -->
-						<a href="https://www.facebook.com/chris.heiser.5"><i class="icon-facebook"></i></a>
-						<a href="http://www.linkedin.com/in/chrismheiser"><i class="icon-linkedin"></i></a>
-						<!-- <a href="#"><i class="icon-apple"></i></a> -->
-
+                        <a href="https://www.facebook.com/chris.heiser.5"><i class="fa fa-facebook fa-4x"></i></a>
+                        <a href="http://www.linkedin.com/in/chrismheiser"><i class="fa fa-linkedin fa-4x"></i></a>
+                        <a href="https://github.com/chrismheiser"><i class="fa fa-github fa-4x"></i></a>
 					</p>
 				</div>
 			</div><!--/.row -->
@@ -350,10 +274,10 @@
 	</div><!--/ #footer -->
 
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="assets/js/raphael.js"></script>
   </body>
 </html>

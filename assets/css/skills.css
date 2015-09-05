@@ -1,0 +1,124 @@
+@import url("skillsreset.css");
+
+/* ------ layout
+-----------------------------------------------*/
+
+html, body {
+margin:0;
+padding:0;
+}
+
+body {
+background:#f5f5f5;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333;
+line-height:18px;
+}
+
+
+#skill_contain {
+    margin: 0px 0px 100px 100px;
+}
+
+.legend {
+float:left;
+width:250px;
+margin-top:140px;
+}
+
+
+.skills {
+float:left;
+clear:both;
+width:100%;
+}
+
+.skills ul,
+.skills li {
+display:block;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.skills li {
+float:right;
+clear:both;
+padding:0 15px;
+height:35px;
+line-height:35px;
+color:#fff;
+margin-bottom:1px;
+font-size:18px;
+}
+
+.skills .js {
+    background:#97BE0D;
+}
+
+.skills .python {
+    background:#D84F5F;
+}
+
+.skills .angular {
+    background:#88B8E6;
+}
+
+.skills .django {
+    background:#BEDBE9;
+}
+
+.skills .c {
+    background:#FFBF00;
+}
+
+.skills .java {
+    background:#6A66A3;
+}
+
+
+.footer {
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#2D2D2D;
+color:#EAEAEA;
+padding:20px 0;
+}
+
+.footer a {
+color:#EAEAEA;
+}
+
+.footer a:hover {
+color:#E4842C;
+}
+
+.footer .inside {
+font-family: 'Cabin Sketch', arial, serif;
+font-size:22px;
+text-align:center;
+}
+
+
+#diagram {
+float:left;
+width:500px;
+height:500px;
+}
+
+.get {
+display:none;
+}
+
+
+/* ------ anchors
+-----------------------------------------------*/
+
+a {
+text-decoration:none;
+color:#333;
+}
+
