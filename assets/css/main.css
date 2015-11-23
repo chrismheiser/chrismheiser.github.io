@@ -167,11 +167,14 @@ a:after {
 	font-size: 80px;
 	color: white;
     font-weight: 400;
+    text-align: left;
+
 }
 
 #headerwrap h3 {
 	font-size: 20px;
 	color: white;
+    text-align: left;
 }
 
 /* Intro Wrap */
